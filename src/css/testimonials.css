@@ -13,7 +13,7 @@
   .testimonials__quote-text {
     margin: 0;
     padding: 0;
-    width: 803px;
+    width: 63.5vw;
     color: #ffffff;
     font-family: 'Montserrat-Medium';
     font-size: 23px;
@@ -35,3 +35,22 @@
     text-transform: uppercase;
     letter-spacing: 1.2px;
   }
+
+
+@media screen and (min-width: 1920px) {
+  .testimonials__quote-text { font-size: 26px; }
+  .testimonials__quote-author { font-size: 14px; }
+}
+
+@media screen and (max-width: 1024px) {
+  .testimonials { height: 400px; }
+  .testimonials__quote { padding-top: 118px; }
+  .testimonials__quote-text { font-size: 20px; }
+  .testimonials__quote-author { font-size: 12px; }
+}
+
+@media screen and (max-width: 767px) {
+.testimonials__quote { padding-top: 108px; }
+  .testimonials__quote-text { font-size: 18px; }
+  .testimonials__quote-author { font-size: 11px; }
+}

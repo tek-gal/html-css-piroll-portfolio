@@ -3,8 +3,26 @@
   background-color: #ffffff;
   display: flex;
   justify-content: space-around;
+  position:
 }
 
   .clients__item {
     align-self: center;
+    height: 65px;
   }
+
+@media screen and (min-width: 1920px) {
+  .clients { height: 300px; }
+  .clients__item { height: 100px; }
+}
+
+@media screen and (max-width: 1024px) {
+  .clients { height: 160px; }
+  .clients__item { height: 55px; }
+}
+
+
+@media screen and (max-width: 767px) {
+  .clients { height: 140px; }
+  .clients__item { height: 50px; }
+}

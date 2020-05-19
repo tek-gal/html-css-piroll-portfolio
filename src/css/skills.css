@@ -1,21 +1,22 @@
 .skills {
   height: 570px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #f8f9f9;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .skills__professional {
-  margin-left: 100px;
+  margin-left: 7.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .skills__photo {
-  width: 50%;
-  height: inherit;
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: cover;
+  height: 100%;
+  position: absolute;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .skills__professional-title {
@@ -45,5 +46,21 @@
 @media screen and (min-width: 1920px) {
   .skills__professional-name {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .skills {
+      height: 380px;
+  }
+
+  .skills__professional-title {
+    font-size: 26px;
+  }
+
+  .skills__professional-name {
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 31px;
   }
 }

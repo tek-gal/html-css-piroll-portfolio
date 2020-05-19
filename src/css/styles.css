@@ -22,13 +22,13 @@ a {
 }
 
 .container {
-  padding: 0 98px;
+  padding: 0 7.2vw;
   font-family: 'Montserrat-Medium';
 }
 
 .progress{
   height: 3px;
-  width: 500px;
+  width: 37vw;
   position: relative;
 }
 
@@ -48,6 +48,7 @@ a {
 
 .ratio_image {
   display: flex;
+  position: relative;
 }
 
   .ratio_image img {

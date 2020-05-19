@@ -15,7 +15,7 @@
 }
 
   .numbers__item-info {
-    margin-left: 27px;
+    margin-left: 2vw;
     font-family: 'Montserrat-Medium';
     font-size: 12px;
     text-transform: uppercase;
@@ -35,5 +35,33 @@
 
   .numbers__item-picture {
     height: 44px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .numbers__item-info {
+    font-size: 10px;
+  }
+
+  .numbers__item {
+    height: 34px;
+  }
+
+  .numbers__item-picture {
+    height: 34px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .numbers {
+    height: 160px;
+  }
+
+  .numbers__item {
+    height: 30px;
+  }
+
+  .numbers__item-picture {
+    height: 30px;
   }
 }

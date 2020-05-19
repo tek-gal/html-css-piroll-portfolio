@@ -1,6 +1,5 @@
 .footer {
   padding-top: 100px;
-  display: flex;
   height: 284px;
   background-color: #141414;
   color: #ffffff;
@@ -8,25 +7,66 @@
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.18px;
-  justify-content: center;
+
+  display: grid;
+  grid-template-areas: "company contacts projects news media"
 }
 
 .footer a {
   color: #fff;
 }
 
+.footer__company {
+  grid-area: company;
+}
+
 .footer__contacts {
-  margin-left: 250px;
+  margin-left: 18.4vw;
+    grid-area: contacts;
 }
 
 .footer__projects {
-  margin-left: 145px;
+  margin-left: 10.7vw;
+    grid-area: projects;
 }
 
 .footer__news {
-  margin-left: 55px;
+  margin-left: 4vw;
+    grid-area: news;
 }
 
 .footer__media {
-  margin-left: 135px;
+  margin-left: 9.9vw;
+    grid-area: media;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__contacts { margin-left: 6.4vw; }
+  .footer__projects { margin-left: 8.7vw; }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__contacts { margin-left: 0vw; }
+  .footer__projects { margin-left: 0vw; }
+  .footer__media { margin-left: 0vw; }
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-areas: "projects news media"
+                         "company company contacts";
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer__company { padding-top: 20px; }
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-areas: "projects news media"
+                         "company company company"
+                         "contacts contacts contacts";
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }

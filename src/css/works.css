@@ -1,7 +1,7 @@
 .works__examples {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 300px);
+  grid-template-rows: repeat(2, 22vw);
 }
 
 .works__examples .works__example-img {
@@ -10,7 +10,7 @@
 }
 
 .works__examples .works__example-link::before{
-  background-image: url(img/works-look.png);
+  background-image: url(../img/works-look.png);
   background-color: #141414;
   opacity: 0.85;
 }
@@ -48,7 +48,7 @@
   opacity: 0;
   transition: .3s ease;
   background-color: #141414;
-  background-image: url(img/works-look.png);
+  background-image: url(../img/works-look.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -61,4 +61,15 @@
   display: flex;
   width: 100%;
   height: 100%;
+}
+
+
+@media screen and (min-width: 1920px) {
+  .works__load-more { font-size: 14px; }
+}
+
+@media screen and (max-width: 767px) {
+  .works__load-contaner {
+    height: 80px;
+  }
 }

@@ -26,11 +26,11 @@
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.08px;
-    width: 537px;
+    width: 34em;
     text-align: center;
   }
 
-  .need-project_form {
+  .need-project__form {
     margin-top: 38px;
     width: 670px;
     display: grid;
@@ -87,3 +87,26 @@
     font-weight: 400;
     letter-spacing: 0.07px;
   }
+
+
+@media screen and (min-width: 1920px) {
+  .need-project__title { font-size: 34px; }
+  .need-project__description { font-size: 20px; }
+  .need-project__form { width: 760px; }
+  .need-project__form-input { font-size: 18px; }
+  .need-project__form-submit { font-size: 16px; }
+}
+
+@media screen and (max-width: 1024px) {
+  .need-project__title { margin-top: 85px; }
+  .need-project__description { font-size: 16px; width: 65.43vw; }
+  .need-project__form { width: 65.43vw; }
+}
+
+
+@media screen and (max-width: 767px) {
+  .need-project__description { font-size: 14px; }
+  .need-project__form { width: 440px; }
+  .need-project__form-input { font-size: 14px; }
+  .need-project__form-submit { font-size: 12px; }
+}

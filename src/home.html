@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/fonts/fonts.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/about.css">
@@ -18,32 +18,37 @@
   <link rel="stylesheet" href="css/need-project.css">
   <link rel="stylesheet" href="css/footer.css">
   <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
 </head>
 <body>
   <!-- HEADER -->
-    <header class="header container">
-        <div class="header__row">
-          <img class="header__logo" src="img/logo.png" alt="logo">
-          <nav class="header__menu">
-            <a class="header__menu-item" href="#">home</a>
-            <a class="header__menu-item" href="#">about</a>
-            <a class="header__menu-item" href="#">work</a>
-            <a class="header__menu-item" href="#">process</a>
-            <a class="header__menu-item" href="#">services</a>
-            <a class="header__menu-item" href="#">testimonials</a>
-            <a class="header__menu-item" href="#">contact</a>
-          </nav>
+  <header class="header container">
+      <div class="header__row">
+        <img class="header__logo" src="img/logo.png" alt="logo">
+        <div class="header__burger">
+          <span></span>
         </div>
-        <div class="header__info">
-          <h1 class="header__info-title">We Design and Develop</h1>
-          <p class="header__info-description">
-          We are a new design studio based in USA. We have over
+        <nav class="header__menu">
+          <a class="header__menu-item" href="#">home</a>
+          <a class="header__menu-item" href="#">about</a>
+          <a class="header__menu-item" href="#">work</a>
+          <a class="header__menu-item" href="#">process</a>
+          <a class="header__menu-item" href="#">services</a>
+          <a class="header__menu-item" href="#">testimonials</a>
+          <a class="header__menu-item" href="#">contact</a>
+        </nav>
+      </div>
+      <div class="header__info">
+        <h1 class="header__info-title">We Design and Develop</h1>
+        <p class="header__info-description">
+        We are a new design studio based in USA. We have over
 20 years of combined experience, and know a thing or two
 about designing websites and mobile apps.</p>
-          <div class="header__info-button">
-            <a href="#">contact us</a>
-          </div>
+        <div class="header__info-button">
+          <a href="#">contact us</a>
         </div>
+      </div>
   </header>
   <!-- ABOUT -->
   <section class="about">
@@ -73,7 +78,9 @@ heaven fruit, dominion she'd won't very all.</p>
         <div class="progress_bg"></div>
       </div>
     </div>
-    <img class="skills__photo" src="img/skills-photo.jpg" alt="gift">
+    <div class="ratio_image">
+      <img class="skills__photo" src="img/skills-photo.jpg" alt="gift">
+    </div>
   </section>
   <!-- NUMBERS -->
   <section class="numbers container">
@@ -252,7 +259,7 @@ forward to start the next one asap.”
     <h2 class="need-project__title">Need a Project?</h2>
     <p class="need-project__description">Let us know what you're looking for in an agency. We'll take a look and see
 if this could be the start of something beautiful.</p>
-    <form action="POST" class="need-project_form">
+    <form action="POST" class="need-project__form">
       <input class="need-project__form-input input__name"     type="text"   name="name"    placeholder="Your Name"  required>
       <input class="need-project__form-input input__email"    type="email"  name="email"   placeholder="Your Email" required>
       <input class="need-project__form-input input__title"    type="text"   name="title"   placeholder="Your Title" required>
