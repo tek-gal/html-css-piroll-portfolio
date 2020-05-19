@@ -1,0 +1,49 @@
+.skills {
+  height: 570px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9f9;
+}
+
+.skills__professional {
+  margin-left: 100px;
+}
+
+.skills__photo {
+  width: 50%;
+  height: inherit;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+}
+
+.skills__professional-title {
+  margin: 0;
+  color: #171717;
+  font-family: 'Montserrat-Bold';
+  font-size: 30px;
+  letter-spacing: 0.3px;
+}
+
+.skills__professional-name {
+  margin: 0;
+  margin-bottom: 19px;
+  margin-top: 41px;
+  text-transform: uppercase;
+  font-family: 'Montserrat-Bold';
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+}
+
+.skills__professional_design { width: 75%; }
+.skills__professional_web { width: 90%; }
+.skills__professional_marketing { width: 65%; }
+
+
+@media screen and (min-width: 1920px) {
+  .skills__professional-name {
+    font-size: 14px;
+  }
+}

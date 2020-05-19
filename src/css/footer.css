@@ -1,0 +1,32 @@
+.footer {
+  padding-top: 100px;
+  display: flex;
+  height: 284px;
+  background-color: #141414;
+  color: #ffffff;
+  font-family: 'Montserrat-Medium';
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.18px;
+  justify-content: center;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer__contacts {
+  margin-left: 250px;
+}
+
+.footer__projects {
+  margin-left: 145px;
+}
+
+.footer__news {
+  margin-left: 55px;
+}
+
+.footer__media {
+  margin-left: 135px;
+}

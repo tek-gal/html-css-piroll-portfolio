@@ -1,0 +1,37 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 0;
+    height: 419px;
+}
+
+.about__title {
+  color: #191919;
+  font-family: 'Montserrat-Bold';
+  font-size: 30px;
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+.about__description {
+  width: 620px;
+  color: #787878;
+  font-family: "NunitoSans-Regular";
+  font-size: 16px;
+  letter-spacing: 0.08px;
+  text-align: center;
+  margin: 0;
+  margin-top: 35px;
+}
+
+.about__signature {
+  margin-top: 37px;
+}
+
+@media screen and (min-width: 1920px) {
+  .about__description {
+    font-size: 18px;
+  }
+}

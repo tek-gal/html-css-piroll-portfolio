@@ -1,0 +1,37 @@
+.testimonials {
+  height: 500px;
+  background-color: #10c9c3;
+}
+
+  .testimonials__quote {
+    padding-top: 178px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonials__quote-text {
+    margin: 0;
+    padding: 0;
+    width: 803px;
+    color: #ffffff;
+    font-family: 'Montserrat-Medium';
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.24px;
+    text-align: center;
+  }
+
+  .testimonials__quote-author {
+    margin: 0;
+    padding: 0;
+    margin-top: 35px;
+    color: #ffffff;
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }

@@ -1,0 +1,39 @@
+.numbers {
+  height: 240px;
+  background-color: #10c9c3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.numbers__item {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  color: #ffffff;
+  position: relative;
+}
+
+  .numbers__item-info {
+    margin-left: 27px;
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 26px;
+}
+
+
+@media screen and (min-width: 1920px) {
+  .numbers__item-info {
+    font-size: 14px;
+  }
+
+  .numbers__item {
+    height: 44px;
+  }
+
+  .numbers__item-picture {
+    height: 44px;
+  }
+}

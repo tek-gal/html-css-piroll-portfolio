@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Montserrat-Medium';
+}
+
+.container {
+  padding: 0 98px;
+  font-family: 'Montserrat-Medium';
+}
+
+.progress{
+  height: 3px;
+  width: 500px;
+  position: relative;
+}
+
+  .progress .progress_bg {
+    background-color: #d8d8d8;
+    position: absolute;
+    height: inherit;
+    width: inherit;
+  }
+
+  .progress .progress_color {
+    background-color: #10c9c3;
+    position: absolute;
+    z-index: 1;
+    height: inherit;
+  }
+
+.ratio_image {
+  display: flex;
+}
+
+  .ratio_image img {
+    min-width: 100%;
+    min-height: 100%;
+  }

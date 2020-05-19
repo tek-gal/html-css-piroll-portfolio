@@ -1,0 +1,10 @@
+.clients {
+  height: 200px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+}
+
+  .clients__item {
+    align-self: center;
+  }
