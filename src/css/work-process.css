@@ -58,11 +58,12 @@
 }
 
 .controls .bar {
-  height: 6px;
-  width: 100%;
-  background: rgba(0, 0, 0, .7);
+  height: 3px;
+  width: 0%;
+  background: #10c9c3;
   position: absolute;
   bottom: 0;
+  visibility: hidden;
 }
 
 .buttons {
