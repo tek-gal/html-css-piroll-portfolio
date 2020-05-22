@@ -54,3 +54,10 @@
   .testimonials__quote-text { font-size: 18px; }
   .testimonials__quote-author { font-size: 11px; }
 }
+
+
+@media screen and (max-width: 650px) {
+  .testimonials__quote { height: content-fit; }
+  .testimonials__quote-text { width: 80vw; font-size: 14px; }
+  .testimonials__quote { padding-top: 90px; font-size: 10px; }
+}

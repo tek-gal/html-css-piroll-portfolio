@@ -1,7 +1,8 @@
 .numbers {
   height: 240px;
   background-color: #10c9c3;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   justify-content: space-around;
   align-items: center;
 }
@@ -63,5 +64,32 @@
 
   .numbers__item-picture {
     height: 30px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .numbers {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: ;
+  }
+
+  .numbers__item {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .numbers {
+    padding: 10px 20px;
+  }
+
+  .numbers__item-info {
+    line-height: 18  px;
+    letter-spacing: 0.5px;
+  }
+
+  .numbers__item-picture {
+    height: 25px;
   }
 }

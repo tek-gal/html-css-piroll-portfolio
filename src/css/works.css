@@ -73,3 +73,10 @@
     height: 80px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .works__examples {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 30vw);
+  }
+}

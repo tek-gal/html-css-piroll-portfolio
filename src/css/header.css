@@ -1,8 +1,11 @@
 .header {
   padding-top: 38px;
-  background: #e9e9e9;
-  height: 670px;
+  height: 100px;
+  box-sizing: border-box;
+}
 
+.header.bg {
+  height: 670px;
   background-image: url(../img/header-bg.jpg);
   background-position: left;
   background-repeat: no-repeat;
@@ -89,6 +92,7 @@
 }
 
 @media screen and (max-width: 767px) {
+
   .header__menu-item { margin-left: 15px; }
 
   .header__menu {
@@ -97,8 +101,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background-color: #f8f9f9;
+    padding-bottom: 20px;
+    background-color: #fff;
     z-index: 9;
     padding-top: 40px;
     visibility: hidden;
@@ -146,4 +150,8 @@
     left: 0;
     top: 9px;
   }
+}
+
+@media screen and (max-width: 573px) {
+  .header__info{ width: 90%; }
 }

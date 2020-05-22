@@ -1,0 +1,43 @@
+.need-project {
+  height: 24.8125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.need-project__title {
+  color: #1d1d1d;
+  font-family: 'Montserrat-Bold';
+  font-size: 1.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding: 0 2em;
+  margin-bottom: 1.2em;
+}
+
+.need-project__description {
+  max-width: 33.5625em;
+  color: #787878;
+  text-align: center;
+  font-family: "NunitoSans-Regular";
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: .005em;
+  padding: 0 2em;
+  margin-bottom: 2.0em;
+  box-sizing: border-box;
+}
+
+.need-project__button {
+  background-color: #10c9c3;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Montserrat-Bold';
+  font-size: .75rem;
+  font-weight: 500;
+  letter-spacing: .1em;
+  line-height: 4.5em;
+  padding: 0 calc((180px - 80.885px) / 2);
+}

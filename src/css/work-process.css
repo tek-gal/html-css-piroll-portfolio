@@ -78,8 +78,12 @@
 .buttons__play,
 .buttons__pause {
   position: absolute;
-  width: 85px;
-  height: 85px;
+  width: 6.25vw;
+  height: 6.25vw;
+  min-width: 40px;
+  max-width: 85px;
+  min-height: 40px;
+  max-height: 85px;
   background-color: #10c9c3;
   border-radius: 50%;
   box-shadow: 0 0 42px rgba(0,0,0,0.15);
@@ -134,6 +138,10 @@
 
 @media screen and (max-width: 767px) {
   .work-process__title {
-    font-size: 26px;
+    font-size: 24px;
   }
+}
+
+@media screen and (max-width: 560px) {
+  .work-process__description { width: 90%;}
 }

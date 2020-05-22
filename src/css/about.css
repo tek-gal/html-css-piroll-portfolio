@@ -48,5 +48,6 @@
   .about__description {
     font-size: 14px;
     margin-top: 30px;
+    width: 70%;
   }
 }

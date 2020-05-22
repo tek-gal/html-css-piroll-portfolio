@@ -2,13 +2,14 @@
   height: 200px;
   background-color: #ffffff;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  position:
 }
 
   .clients__item {
     align-self: center;
     height: 65px;
+    margin: 0 10px;
   }
 
 @media screen and (min-width: 1920px) {
@@ -21,8 +22,12 @@
   .clients__item { height: 55px; }
 }
 
-
 @media screen and (max-width: 767px) {
   .clients { height: 140px; }
   .clients__item { height: 50px; }
+}
+
+@media screen and (max-width: 767px) {
+  .clients { height: 140px; }
+  .clients__item { height: 40px; }
 }

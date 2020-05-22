@@ -105,8 +105,23 @@
 
 
 @media screen and (max-width: 767px) {
+  .need-project__title { margin-top: 65px; font-size: 24px}
   .need-project__description { font-size: 14px; }
   .need-project__form { width: 440px; }
   .need-project__form-input { font-size: 14px; }
   .need-project__form-submit { font-size: 12px; }
+}
+
+
+@media screen and (max-width: 513px) {
+  .need-project { height: 791px; }
+  .need-project__form {
+    width: 90vw;
+    grid-template: "name"
+                   "email"
+                   "title"
+                   "comment"
+                   "submit";
+  }
+
 }

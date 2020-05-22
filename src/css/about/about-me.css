@@ -1,0 +1,60 @@
+.about-me {
+  display: flex;
+  flex-direction: row;
+  height: content-fit; /* !!!! */
+}
+
+.about-me__img {
+  min-width: 300px;
+  width: 50vw;
+  height: auto;
+  background-image: url(../../img/work-8.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-me__info {
+  padding: 8.75rem 0;
+  min-width: 300px;
+  width: 50vw;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 5.375rem;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+.about-me__info-title {
+  color: #171717;
+  font-family: 'Montserrat-Bold';
+  font-size: 1.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  padding-right: 2em;
+  margin-bottom: .8em;
+}
+
+.about-me__info-description {
+  color: #787878;
+  font-family: "NunitoSans-Regular";
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: .005em;
+  padding-right: 8.9375em;
+  margin-bottom: 2.3125em;
+}
+
+.about-me__info-signature {
+  max-width: 223px;
+  width: 40%;
+}
+
+@media screen and (max-width: 599px) {
+  .about-me { flex-wrap: wrap; }
+  .about-me__img { width: 100vw; height: 100vw; }
+  .about-me__info { width: 100vw; }
+}

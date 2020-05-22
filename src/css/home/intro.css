@@ -1,0 +1,45 @@
+.intro {
+  background-color: #f6f6f6;
+  height: 313px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro__title {
+  /* width: 486px; */
+  color: #171717;
+  font-family: 'Montserrat-Bold';
+  font-size: 2.375rem; /* 38px */
+  font-weight: 500;
+  letter-spacing: 0.01em; /* 0.38px */
+  margin-bottom: 0.8158em; /* 31px */
+}
+
+.intro__description {
+  max-width: 512px;
+  color: #787878;
+  font-family: "NunitoSans-Regular";
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  text-align: center;
+  padding: 0 1em;
+}
+
+@media screen and (max-width: 1023px) {
+  :root { font-size: 14px;   }
+}
+
+@media screen and (max-width: 767px) {
+  :root { font-size: 12px;   }
+}
+
+@media screen and (max-width: 567px) {
+  :root { font-size: 10px;   }
+}
+
+@media screen and (max-width: 567px) {
+  .intro__title { font-size: 2rem;   }
+}
