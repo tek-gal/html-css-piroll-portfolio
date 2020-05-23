@@ -17,6 +17,7 @@ ul {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
   font-family: 'Montserrat-Medium';
 }
@@ -54,4 +55,30 @@ a {
   .ratio_image img {
     min-width: 100%;
     min-height: 100%;
+    object-fit: cover;
+  }
+
+
+.details {
+  font-size: 1rem;
+  margin-top: 1em;
+  font-size: 1rem;
+  font-family: "NunitoSans-Regular";
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  line-height: 1.875em;
+  color: #787878;
+}
+
+  .details-item strong {
+    color: #171717;
+  }
+
+
+  @media screen and (max-width: 1023px) {
+    :root { font-size: 14px;   }
+  }
+
+  @media screen and (max-width: 767px) {
+    :root { font-size: 12px;   }
   }

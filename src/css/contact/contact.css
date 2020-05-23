@@ -1,0 +1,20 @@
+.contact {
+  padding-top: 6.5rem;
+}
+
+.contact__info-title {
+  color: #171717;
+  font-family: 'Montserrat-Bold';
+  font-size: 1.875rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.contact__info-description {
+  color: #787878;
+  font-family: "NunitoSans-Regular";
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: .005em;
+  padding-right: 6.0625em;
+}

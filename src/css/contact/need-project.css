@@ -1,0 +1,22 @@
+.need-project {
+  height: fit-content;
+}
+
+.need-project__form {
+  padding-top: 6.5rem;
+  margin-top: 0;
+  width: 50vw;
+}
+
+.need-project__form-submit.input__submit {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 827px) {
+  .need-project__form {
+    padding-top: 6.5rem;
+    margin-top: 0;
+    width: 100%;
+  }
+}
